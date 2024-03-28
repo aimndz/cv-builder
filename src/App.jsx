@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ResumePreview from "./components/ResumePreview";
 import SideBar from "./components/SideBar";
+import resumeIcon from "./assets/resume-icon.png";
 
 const defaultPersonalInfo = {
   fullName: "[Name]",
@@ -47,11 +48,7 @@ function App() {
     <>
       <header className="max-w-7xl mx-auto mt-1">
         <div className="flex justify-center items-center gap-5 mb-4">
-          <img
-            className="w-16 h-16"
-            src="./src/Assets/resume-icon.png"
-            alt=""
-          />
+          <img className="w-16 h-16" src={resumeIcon} />
           <h1 className="font-bold text-4xl text-center my-10">CV Builder</h1>
         </div>
       </header>
