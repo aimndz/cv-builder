@@ -48,7 +48,7 @@ export default function SideBar({
     }
   };
   return (
-    <section className="flex flex-col gap-5 min-w-sidebar-btn w-sidebar-btn">
+    <section className="flex flex-col gap-5 min-w-sidebar-btn w-sidebar-btn mb-10">
       {!showPersonalInfoForm ? (
         <PersonalButton onButtonClick={handlePersonalInfoClicK} />
       ) : (
