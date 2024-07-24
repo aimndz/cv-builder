@@ -52,7 +52,7 @@ function App() {
           <h1 className="font-bold text-4xl text-center my-10">CV Builder</h1>
         </div>
       </header>
-      <main className="flex h-full gap-5 max-w-7xl mb-10 mx-auto">
+      <main className="flex flex-col md:flex-row h-full gap-5 max-w-7xl mb-10 mx-auto">
         <SideBar
           personalInfo={information}
           setPersonalInfo={setInformation}

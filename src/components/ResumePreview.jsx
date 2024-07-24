@@ -4,7 +4,7 @@ import Experience from "./Experience";
 
 export default function Resume({ information, educationInfo, experienceInfo }) {
   return (
-    <section className=" bg-white text-black py-10 px-8 h-900 w-full min-w-resume-width mb-10">
+    <section className=" bg-white text-black py-10 px-8 h-900 w-full w-full md:min-w-resume-width mb-10">
       <Personal
         name={information.fullName}
         address={information.address}
